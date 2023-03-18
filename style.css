@@ -98,6 +98,7 @@ body {
 
 .header-content .logo {
   position: relative;
+  cursor: pointer;
 }
 
 .header-content .logo::before {
@@ -144,6 +145,8 @@ body {
 .telephone {
   cursor: pointer;
   position: relative;
+  width: 236px;
+  height: 53px;
 }
 
 .telephone::after {
