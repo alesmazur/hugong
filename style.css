@@ -35,7 +35,10 @@ body {
   color: #000;
   height: 100%;
   background-color: #fffdfa;
+  scroll-behavior: smooth;
 }
+
+
 
 /* wrapper  */
 
@@ -68,10 +71,10 @@ body {
 /* dinamyc classes */
 .fixed {
   position: fixed;
-  z-index: 10;
+  z-index: 100;
   transition: all 0.2s ease-in-out;
-  box-shadow: ;
   height: 55px;
+  background-color: #fffdfa;
 }
 
 .active {
@@ -321,6 +324,11 @@ body {
   letter-spacing: 0em;
   text-align: left;
   margin-bottom: 40px;
+}
+
+.item-img img {
+  max-width: 570px;
+  max-height: 570px;
 }
 
 .item-subtitle {
