@@ -8,22 +8,22 @@ $(function () {
 
   // Fixed header
 
-  checkScroll(scrollOffset);
+  // checkScroll(scrollOffset);
 
-  function checkScroll(scrollOffset) {
-    if (scrollOffset >= introH) {
-      header.addClass("fixed");
-      topline.addClass("zero");
-    } else {
-      header.removeClass("fixed");
-      topline.removeClass("zero");
-    }
-  }
+  // function checkScroll(scrollOffset) {
+  //   if (scrollOffset >= introH) {
+  //     header.addClass("fixed");
+  //     topline.addClass("zero");
+  //   } else {
+  //     header.removeClass("fixed");
+  //     topline.removeClass("zero");
+  //   }
+  // }
 
-  $(window).on("scroll load  resize  ", function () {
-    scrollOffset = $(this).scrollTop();
-    checkScroll(scrollOffset);
-  });
+  // $(window).on("scroll load  resize  ", function () {
+  //   scrollOffset = $(this).scrollTop();
+  //   checkScroll(scrollOffset);
+  // });
 
   // smooth scrolling
   $("[data-scroll]").on("click", function (event) {

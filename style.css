@@ -34,6 +34,7 @@ body {
   font-family: "Inter", sans-serif;
   color: #000;
   height: 100%;
+  background-color: #fffdfa;
 }
 
 /* wrapper  */
@@ -61,7 +62,7 @@ body {
   width: 100%;
   height: 80px;
   color: #1a1a18;
-  background-color: #fffdfa;
+
   position: relative;
 }
 /* dinamyc classes */
@@ -341,6 +342,7 @@ body {
   text-align: left;
   opacity: 0.5;
   margin-bottom: 70px;
+  max-width: 496px;
 }
 
 .item-end {
