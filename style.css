@@ -38,8 +38,6 @@ body {
   scroll-behavior: smooth;
 }
 
-
-
 /* wrapper  */
 
 .wrapper {
@@ -256,7 +254,7 @@ body {
   font-weight: 600;
   line-height: 77px;
   letter-spacing: 0em;
-  text-align: center;
+  text-align: end;
   color: #000;
   margin: 0 auto;
 }
@@ -313,7 +311,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 140px auto;
+  margin: 140px auto 250px;
 }
 
 .item-title {
@@ -356,7 +354,11 @@ body {
 .item-end {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
+}
+
+.item-end a {
+  margin-right: 50px;
 }
 
 .item-end a {
@@ -386,6 +388,10 @@ body {
   margin: 110px auto;
 }
 
+.hugong-brand {
+  margin-bottom: 200px;
+}
+
 .about-brand__content {
   display: flex;
   justify-content: space-between;
@@ -406,8 +412,17 @@ body {
 .section-about {
   margin: 180px 0;
 }
+
+.section-about p {
+  margin: 10px 0;
+}
 .map-2 {
   margin-right: 90px;
+}
+
+.brand-text__belarus {
+  height: 450px;
+  margin-bottom: 50px;
 }
 
 .bottom-block__logo {
