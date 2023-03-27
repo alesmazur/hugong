@@ -10,7 +10,7 @@ openModalButtons.forEach((button) => {
 });
 
 overlay.addEventListener("click", () => {
-  const modals = document.querySelectorAll(".modal-contacts.active ");
+  const modals = document.querySelectorAll(".modal.active ");
   modals.forEach((modal) => {
     closeModal(modal);
   });
@@ -18,7 +18,7 @@ overlay.addEventListener("click", () => {
 
 closeModalButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    const modal = button.closest(".modal-contacts");
+    const modal = button.closest(".modal");
     closeModal(modal);
   });
 });

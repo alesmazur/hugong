@@ -61,7 +61,7 @@
             </div>
           </div>
 <!-- modal contacts -->
-<div class="modal-contacts "  id="modal-contacts">
+<div class=" modal modal-contacts "  id="modal-contacts">
   <div class="modal-contacts__phones" >
 <!-- modal phones -->
     <h2>КОНТАКТ-ЦЕНТР
@@ -126,6 +126,7 @@
 
       <!-- main -->
       <main class="main">
+        
         <div class="container">
           <article class="article">
             <!-- section-intro -->
@@ -157,15 +158,29 @@
                   <h4 class="request-title">
                     Сертифицированный товар <br> по низким ценам
                   </h4>
-                  <div>
-                    <img
-                      class="request-img"
-                      src="./assets/img/requset_btn.png"
-                      alt="request_btn"
-                    />
-                  </div>
+                  <!-- callback button -->
+                  <button  class="callback-button"  data-modal-target="#modal-callback" >
+                    <p>Заказать </p>
+                    <p>консультацию</p>
+                  </button>
+                  <!-- /callback button -->
+
                 </div>
               </div>
+
+              <!-- modal callback -->
+<div  class="modal modal-callback" id="modal-callback" >
+  <button  data-close-button class="close-button__modal" >&times;</button>
+  <form  id="form" class="callback-form" action="https://formsubmit.co/alesmazurphotography@gmail.com" method="POST">
+    <input type="hidden" name="_template" value="table">
+    <input   type="text" name="name"  placeholder="Ваше Имя" required>
+    <input type="tel" name="telephone"  placeholder="Номер телефона +375 (_ _) _ _  _ _  _ _" required>
+    <button class="callback-button form-button__callback" type="submit"><p>Заказать </p>
+      <p>звонок</p></button>
+</form>
+</div>
+
+              <!-- /modal callback -->
             </section>
             <!-- /section intro -->
             <!-- section list -->
