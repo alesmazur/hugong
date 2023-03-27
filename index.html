@@ -39,6 +39,7 @@
                 <img src="./assets/img/header_logo.png" alt="logo"  >
 
               </a> </div>
+              <!-- nav -->
               <nav class="nav">
                 <ul class="header-nav">
                   <li class="header-nav__item"  data-scroll="#top-products" >
@@ -46,17 +47,83 @@
                   </li>
                   <li class="header-nav__item"  data-scroll="#brand-hugong" ><a href="#brand-hugong">Бренд Hugong</a></li>
                   <li class="header-nav__item"  data-scroll="#about-us"><a href="#about-us">О нас</a></li>
-                  <li class="header-nav__item" data-scroll="#connect" ><a href="#">Связь</a></li> 
+                  <li class="header-nav__item" data-scroll="#connect" > <button  data-modal-target="#modal-contacts" >
+                    Связь
+                  </button> </li> 
                 </ul>
               </nav>
+              <!-- /nav -->
               <div class="telephone"> <a  href="tel:+375291768776">
                 <img src="./assets/img/telephone_header.png" alt="call-button">
-
-              </a> </div>
+              </a> 
+            </div>
+            <!-- /telephone -->
             </div>
           </div>
-        </div>
+<!-- modal contacts -->
+<div class="modal-contacts "  id="modal-contacts">
+  <div class="modal-contacts__phones" >
+<!-- modal phones -->
+    <h2>КОНТАКТ-ЦЕНТР
+    </h2>
+    <button  data-close-button class="close-button__modal" >&times;</button>
+    <ul class="modal-phones__list" >
+      <li>
+        <p><a href="tel:+375173613094">+375 (17) 361-30-94</a> <span>многоканальный</span></p>
+      </li>
+      <li>
+        <p><a href="tel:+375173612382"> +375 (17) 361-23-82  </a> <span>многоканальный</span> </p>
+      </li>
+      <li>
+        <p><a href="tel:+375291768776">+375 (29) 176-87-76                               </a> <span>A1</span> </p>
+      </li>
+      <li>
+        <p><a href="tel:+375447877345">+375 (44) 787-73-45                              </a> <span>A1</span> </p>
+      </li>
+      <li>
+        <p><a href="tel:+375333206624">+375 (33) 320-66-24                         </a> <span>МТС</span></p>
+      </li>
+    </ul>
+  </div>
+  <!-- modal adress -->
+  <div class="modal-contacts__adress">
+    <div  class="modal-adress__title">
+      <p>ОФИС</p>
+      <p>СКЛАД</p>
+      <p>МАГАЗИН</p>
+    </div>
+    <div  class="modal-adress__list">
+      <p>Беларусь, 220014, г. Минск,</p>
+      <p>ул. Попова 26, офис 11 <a  style="cursor: pointer; text-decoration: underline;" target="_blank" href="https://mdfkl.by/contacts.html">Схема проезда</a> </p>
+    </div>
+  </div>
+  <!-- modal working time -->
+
+  <div class="modal-contacts__adress">
+    <div  class="modal-adress__title">
+      <p>
+        ВРЕМЯ РАБОТЫ</p>
+      
+    </div>
+    <div  class="modal-times__list">
+      <p>Понедельник - четверг: с 8.30 до 17.30</p>
+      <p>Пятница: с 8.30 до 16.15</p>
+      <p>Суббота - воскресенье: выходной</p>
+    </div>
+  </div>
+
+  <div> 
+    <a  class="modal-contacts__link" target="_blank" href="https://mdfkl.by/">Перерейти на основной сайт</a>
+  </div>
+  
+  <!-- /modal contacts  -->
+</div>
+<!-- /header container -->
+</div>
+<div id="overlay" ></div>
+        <!-- /header-container -->
       </header>
+
       <!-- main -->
       <main class="main">
         <div class="container">
@@ -166,7 +233,7 @@
        <br> HUGONG ETIG 200 III (Хугонг Етиг 200III).</div>
       <div class="item-description">Предназначен для аргонодуговой сварки постоянным током (DC) и ручной дуговой сварки (MMA). Является одним из самых компактных, мобильных и интуитивно понятных аппаратов для ТИГ сварки.</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a  target="_blank" href="https://mdfkl.by/hugong-etig-200-iii.html">Технические характеристики</a>
         <img src="./assets/img/price-1.png" alt="price">
       </div>
     </div>
@@ -184,7 +251,7 @@
        <br> HUGONG EXTREME 200 III (Хугонг Экстрим 200III).</div>
       <div class="item-description">Предназначен для ручной дуговой сварки (РДС) MMA покрытым электродом. Инверторная технология на базе новейших IGBT транзисторов является наиболее современной и отвечает самым высоким требованиям надежности и производительности.</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a  target="_blank" href="https://mdfkl.by/hugong-extreme-200-iii.html">Технические характеристики</a>
         <img src="./assets/img/price-2.png" alt="price">
       </div>
     </div>
@@ -201,7 +268,7 @@
       <div class="item-subtitle">Полуавтомат многофункциональный <br> инверторный Hugong EXTREMIG 200W III <br> (Хугонг Экстремиг 200В III)</div>
       <div class="item-description">Предназначен для полуавтоматической сварки в среде защитных газов омедненной и полированной проволокой (MIG/MAG), сварки порошковой (флюсовой) проволокой (FCAW), а также ручной дуговой сварки покрытым электродом (ММА) и аргонодуговой сварки (TIG).</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a  target="_blank" href="https://mdfkl.by/hugong-extremig-200w-iii.html">Технические характеристики</a>
         <img src="./assets/img/price-3.png" alt="price">
       </div>
     </div>
@@ -218,7 +285,7 @@
       <div class="item-subtitle">Однофазный синергетический инверторный <br> сварочный полуавтомат HUGONG EXTREMIG 200 <br> III LCD (Хугонг Экстремиг 200 III ЛСД)</div>
       <div class="item-description">Интеллектуальная синергетическая настройка параметров сварки. Процесс сварки контролируется и управляется с высокой скоростью на всех этапах. Встренный LCD (жидкокристаллический) дисплей обеспечивает наглядный и понятный контроль параметров процесса сварки.</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a target="_blank" href="https://mdfkl.by/hugong-extremig-200-iii-lcd.html">Технические характеристики</a>
         <img src="./assets/img/unknow-price.png" alt="price">
       </div>
     </div>
@@ -235,7 +302,7 @@
       <div class="item-subtitle">Трехфазный инверторный сварочный <br> полуавтомат HUGONG INVERMIG 500S III <br>(Хугонг Инвермиг 500С III).</div>
       <div class="item-description">«Рабочая лошадка” для предприятий, заводов и фабрик. Удобный интерфейс с необходимыми регулировками. Аппарат имеет защиту от перегрузки, индикатор перегрева и неисправности. Так же данный аппарат имеет защиту от скачков напряжения.</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a target="_blank" href="https://mdfkl.by/hugong-invermig-500s-iii.html">Технические характеристики</a>
         <img src="./assets/img/unknow-price.png" alt="price">
       </div>
     </div>
@@ -253,7 +320,7 @@
       <div class="item-subtitle">Инверторный сварочный аппарат <br> POWER STICK 251W III (Пауэр стик 251В III) </div>
       <div class="item-description">Предназначен для ручной дуговой сварки (РДС) покрытым электродом ММА, аргонодуговой сварки методом TIG Lift. Реально выдаваемый сварочный ток 250А позволит Вам работать с широким спектром различных материалов.</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a target="_blank" href="https://mdfkl.by/hugong-power-stick-251-w-iii.html">Технические характеристики</a>
         <img src="./assets/img/unknow-price.png" alt="price">
       </div>
     </div>
@@ -270,7 +337,7 @@
       <div class="item-subtitle">Инверторный аппарат для воздушно-плазменной <br> резки HUGONG POWERCUT 40K <br>(Хугонг Пауэркат 40К плазма) </div>
       <div class="item-description">Предназначен для получения деталей и заготовок  из листового металла и различного металлического профиля, резки металлолома, выполнения ремонтных работ различного вида.</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a target="_blank" href="https://mdfkl.by/hugong-powercut-40k.html">Технические характеристики</a>
         <img src="./assets/img/unknow-price.png" alt="price">
       </div>
     </div>
@@ -287,7 +354,7 @@
       <div class="item-subtitle">Промышленный синергетический инверторный <br> сварочный полуавтомат HUGONG SUPERMATRIX <br> 500 III (Хугонг Суперматрикс 500 III)  </div>
       <div class="item-description">Одинарный и двойной пульс, для сварки черных и цветных металлов, идеальные сварочные швы. Аппарат имеет защиту от скачков напряжения. Высокое напряжение холостого хода обеспечивает легкость поджига сварочной дуги.</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a  target="_blank" href="https://mdfkl.by/hugong-supermatrix-500-iii-s-bo-i-telezhkoj.html">Технические характеристики</a>
         <img src="./assets/img/unknow-price.png" alt="price">
       </div>
     </div>
@@ -304,7 +371,7 @@
       <div class="item-subtitle">Аппарат аргонодуговой сварки HUGONG WAVE <br> 200 III MINI (Хугонг AC/DC Вэйв 200 III Мини ) </div>
       <div class="item-description">Предназначен для аргонодуговой сварки постоянным (DC) <br> и переменным током (AC), а также ручной дуговой сварки MMA. Простой и интуитивно понятный интерфейс облегчает настройку и регулировку сварочных параметров.</div>
       <div class="item-end">
-        <a href="#">Технические характеристики</a>
+        <a  target="_blank" href="https://mdfkl.by/hugong-wave-200-iii-mini-ac-dc.html">Технические характеристики</a>
         <img src="./assets/img/unknow-price.png" alt="price">
       </div>
     </div>
