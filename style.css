@@ -164,13 +164,12 @@ button {
 
 .modal-contacts {
   width: 530px;
-  max-width: 80%;
-  max-height: 90%;
+
   overflow-y: scroll;
   height: 670px;
   border: 2px solid #1a1a18;
   border-radius: 5px;
-  padding: 30px 40px;
+  padding: 30px 20px 20px;
   display: flex;
   flex-direction: column;
   background-color: #fffdfa;
