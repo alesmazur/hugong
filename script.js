@@ -43,7 +43,7 @@ function closeModal(modal) {
 // jQuery
 
 $(function () {
-  $(".intro-text__animation1").slideUp(-400).slideDown(1000);
-  $(".intro-text__animation2").slideUp(-400).slideDown(2000);
+  $(".intro-text__animation1").slideUp(-400).slideDown(2000);
+  $(".intro-text__animation2").slideUp(-400).slideDown(4000);
   $(".section-intro__img").fadeOut(-400).fadeIn(2000);
 });
