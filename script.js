@@ -43,7 +43,21 @@ function closeModal(modal) {
 // jQuery
 
 $(function () {
+
+  // Intro animation
   $(".intro-text__animation1").slideUp(-400).slideDown(2000);
-  $(".intro-text__animation2").slideUp(-400).slideDown(4000);
+  $(".intro-text__animation2").slideUp(-400).slideDown(3000);
   $(".section-intro__img").fadeOut(-400).fadeIn(2000);
+
+
+  // Slick slider
+  $(".slider").slick({
+    infinite: true,
+    fade: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 300,
+    dots: true,
+    arrows: false,
+  });
 });

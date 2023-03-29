@@ -632,10 +632,55 @@ button {
   margin-bottom: 40px;
 }
 
+/* Slick slider */
+.slick-slide {
+  height: 570px !important;
+  width: 570px !important;
+  pointer-events: all;
+}
+
+.slick-dots {
+  display: flex;
+  margin: -70px 200px 0 0;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  pointer-events: all;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.slick-dots li {
+  margin: 5px 0.25rem;
+}
+
+.slick-dots button {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.item-img {
+  width: 570px;
+  height: 570px;
+}
+
 .item-img img {
-  max-width: 570px;
-  max-height: 570px;
-  animation-play-state: paused;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .item-subtitle {
